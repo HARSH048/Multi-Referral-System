@@ -24,8 +24,8 @@ The **Multi-Level Referral System** is designed to manage user earnings from pur
 ```json
 {
   "id": "123e4567-e89b-12d3-a456-426614174000",
-  "name": "John Doe",
-  "email": "john.doe@example.com",
+  "name": "John",
+  "email": "john@example.com",
 }
 ```
 
@@ -69,8 +69,8 @@ The **Multi-Level Referral System** is designed to manage user earnings from pur
 {
   "user": {
     "id": "123e4567-e89b-12d3-a456-426614174000",
-    "name": "John Doe",
-    "email": "john.doe@example.com"
+    "name": "John",
+    "email": "john@example.com"
   },
   "selfEarnings": [
     {
@@ -175,7 +175,7 @@ JWT_SECRET=your_jwt_secret
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/HARSH048/RealTime-Editor.git
+   git clone https://github.com/HARSH048/Multi-Referral-System.git
    ```
 2. Install dependencies:
    ```bash
