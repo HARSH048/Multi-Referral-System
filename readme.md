@@ -164,10 +164,10 @@ Ensure the following variables are set in the `.env` file:
 ```env
 DB_HOST=localhost
 DB_NAME=multi_referral_system
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
+DB_USER=db_user
+DB_PASSWORD=db_password
 DB_PORT=5432
-JWT_SECRET=your_jwt_secret
+JWT_SECRET=jwt_secret
 ```
 
 ---
