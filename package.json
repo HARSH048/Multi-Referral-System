@@ -1,0 +1,27 @@
+{
+    "name": "multi-level-referral-system",
+    "version": "1.0.0",
+    "description": "A backend system for a multi-level referral and earning system with live updates.",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
+        "pg": "^8.10.0",
+        "sequelize": "^6.31.0",
+        "ws": "^8.18.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "author": "Your Name",
+    "license": "ISC"
+}
